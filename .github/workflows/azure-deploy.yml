@@ -19,5 +19,5 @@ jobs:
     - name: 'Deploy Function'
       uses: Azure/functions-action@v1
       with:
-        app-name: 'Your-Unique-Function-App-Name' # You will create this in the Azure Portal soon!
+        app-name: azure-hello-ruchita-2026 # You will create this in the Azure Portal soon!
         package: './MyAzureProject' # This points to the folder you created in Step 2
